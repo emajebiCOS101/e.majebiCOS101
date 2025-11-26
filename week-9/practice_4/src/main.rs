@@ -3,7 +3,7 @@ use std::io::Write;
 
 fn main() {
 
-    let mut file = std::fs::File::create("data.txt").expect("create failed");
+    let mut file = std::fs::File::create("data.txt").expect("create failed error");
     let mut file = OpenOptions::new().append(true).open("data.txt").expect(
         "cannot open file");
     file.write_all("\nHello Class".as_bytes()).expect("write failed");
