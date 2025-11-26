@@ -3,11 +3,11 @@ use std::io;
 fn main() {
     loop {
     println!("Menu                                 Price(₦)
-           P =  Poundo Yam / Edinkaiko Soup      ₦3,200/n
-           F =  Fried Rice & Chicken             ₦3,000/n
-           A =  Amala & Ewedu Soup               ₦2,500/n
-           E =  Eba & Egusi Soup                 ₦2,000/n 
-           W =  White Rice & Stew                ₦2,500/n");
+           P =  Poundo Yam / Edinkaiko Soup\t      ₦3,200\n
+           F =  Fried Rice & Chicken             ₦3,000\n
+           A =  Amala & Ewedu Soup               ₦2,500\n
+           E =  Eba & Egusi Soup                 ₦2,000\n 
+           W =  White Rice & Stew                ₦2,500\n");
 
     let mut input1 = String::new();
     let mut input2 = String::new();
