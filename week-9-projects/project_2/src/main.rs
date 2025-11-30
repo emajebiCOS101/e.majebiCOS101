@@ -33,5 +33,5 @@ fn main() {
 
         file.write_all("\n".as_bytes()).unwrap();
     }
-    println!("Student data has been updated to the system");
+    println!("Student data has been updated to the system successfully");
 }
