@@ -1,6 +1,6 @@
 fn main(){
 
-    // a list of nos
+    // a list of numbers.
     let x = vec! [100,200,300];
     borrow_vector(&x); // passing reference
 
